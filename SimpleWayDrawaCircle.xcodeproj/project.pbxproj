@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D323A021E8BB34700DF3BFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D323A011E8BB34700DF3BFE /* main.m */; };
+		7D323A051E8BB34700DF3BFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D323A041E8BB34700DF3BFE /* AppDelegate.m */; };
+		7D323A081E8BB34700DF3BFE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D323A071E8BB34700DF3BFE /* ViewController.m */; };
+		7D323A0B1E8BB34700DF3BFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D323A091E8BB34700DF3BFE /* Main.storyboard */; };
+		7D323A0D1E8BB34700DF3BFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D323A0C1E8BB34700DF3BFE /* Assets.xcassets */; };
+		7D323A101E8BB34700DF3BFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D323A0E1E8BB34700DF3BFE /* LaunchScreen.storyboard */; };
+		7D323A1B1E8BB34700DF3BFE /* SimpleWayDrawaCircleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D323A1A1E8BB34700DF3BFE /* SimpleWayDrawaCircleTests.m */; };
+		7D323A261E8BB34700DF3BFE /* SimpleWayDrawaCircleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D323A251E8BB34700DF3BFE /* SimpleWayDrawaCircleUITests.m */; };
+		7D323A351E8BB38500DF3BFE /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D323A341E8BB38500DF3BFE /* CircleView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D323A171E8BB34700DF3BFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D3239F51E8BB34700DF3BFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D3239FC1E8BB34700DF3BFE;
+			remoteInfo = SimpleWayDrawaCircle;
+		};
+		7D323A221E8BB34700DF3BFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D3239F51E8BB34700DF3BFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D3239FC1E8BB34700DF3BFE;
+			remoteInfo = SimpleWayDrawaCircle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7D3239FD1E8BB34700DF3BFE /* SimpleWayDrawaCircle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleWayDrawaCircle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D323A011E8BB34700DF3BFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7D323A031E8BB34700DF3BFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7D323A041E8BB34700DF3BFE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7D323A061E8BB34700DF3BFE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7D323A071E8BB34700DF3BFE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7D323A0A1E8BB34700DF3BFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D323A0C1E8BB34700DF3BFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D323A0F1E8BB34700DF3BFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7D323A111E8BB34700DF3BFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D323A161E8BB34700DF3BFE /* SimpleWayDrawaCircleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleWayDrawaCircleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D323A1A1E8BB34700DF3BFE /* SimpleWayDrawaCircleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleWayDrawaCircleTests.m; sourceTree = "<group>"; };
+		7D323A1C1E8BB34700DF3BFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D323A211E8BB34700DF3BFE /* SimpleWayDrawaCircleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleWayDrawaCircleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D323A251E8BB34700DF3BFE /* SimpleWayDrawaCircleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleWayDrawaCircleUITests.m; sourceTree = "<group>"; };
+		7D323A271E8BB34700DF3BFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D323A331E8BB38500DF3BFE /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
+		7D323A341E8BB38500DF3BFE /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D3239FA1E8BB34700DF3BFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D323A131E8BB34700DF3BFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D323A1E1E8BB34700DF3BFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D3239F41E8BB34700DF3BFE = {
+			isa = PBXGroup;
+			children = (
+				7D3239FF1E8BB34700DF3BFE /* SimpleWayDrawaCircle */,
+				7D323A191E8BB34700DF3BFE /* SimpleWayDrawaCircleTests */,
+				7D323A241E8BB34700DF3BFE /* SimpleWayDrawaCircleUITests */,
+				7D3239FE1E8BB34700DF3BFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D3239FE1E8BB34700DF3BFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D3239FD1E8BB34700DF3BFE /* SimpleWayDrawaCircle.app */,
+				7D323A161E8BB34700DF3BFE /* SimpleWayDrawaCircleTests.xctest */,
+				7D323A211E8BB34700DF3BFE /* SimpleWayDrawaCircleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D3239FF1E8BB34700DF3BFE /* SimpleWayDrawaCircle */ = {
+			isa = PBXGroup;
+			children = (
+				7D323A031E8BB34700DF3BFE /* AppDelegate.h */,
+				7D323A041E8BB34700DF3BFE /* AppDelegate.m */,
+				7D323A061E8BB34700DF3BFE /* ViewController.h */,
+				7D323A071E8BB34700DF3BFE /* ViewController.m */,
+				7D323A091E8BB34700DF3BFE /* Main.storyboard */,
+				7D323A0C1E8BB34700DF3BFE /* Assets.xcassets */,
+				7D323A0E1E8BB34700DF3BFE /* LaunchScreen.storyboard */,
+				7D323A111E8BB34700DF3BFE /* Info.plist */,
+				7D323A001E8BB34700DF3BFE /* Supporting Files */,
+				7D323A331E8BB38500DF3BFE /* CircleView.h */,
+				7D323A341E8BB38500DF3BFE /* CircleView.m */,
+			);
+			path = SimpleWayDrawaCircle;
+			sourceTree = "<group>";
+		};
+		7D323A001E8BB34700DF3BFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D323A011E8BB34700DF3BFE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7D323A191E8BB34700DF3BFE /* SimpleWayDrawaCircleTests */ = {
+			isa = PBXGroup;
+			children = (
+				7D323A1A1E8BB34700DF3BFE /* SimpleWayDrawaCircleTests.m */,
+				7D323A1C1E8BB34700DF3BFE /* Info.plist */,
+			);
+			path = SimpleWayDrawaCircleTests;
+			sourceTree = "<group>";
+		};
+		7D323A241E8BB34700DF3BFE /* SimpleWayDrawaCircleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7D323A251E8BB34700DF3BFE /* SimpleWayDrawaCircleUITests.m */,
+				7D323A271E8BB34700DF3BFE /* Info.plist */,
+			);
+			path = SimpleWayDrawaCircleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D3239FC1E8BB34700DF3BFE /* SimpleWayDrawaCircle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D323A2A1E8BB34700DF3BFE /* Build configuration list for PBXNativeTarget "SimpleWayDrawaCircle" */;
+			buildPhases = (
+				7D3239F91E8BB34700DF3BFE /* Sources */,
+				7D3239FA1E8BB34700DF3BFE /* Frameworks */,
+				7D3239FB1E8BB34700DF3BFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleWayDrawaCircle;
+			productName = SimpleWayDrawaCircle;
+			productReference = 7D3239FD1E8BB34700DF3BFE /* SimpleWayDrawaCircle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D323A151E8BB34700DF3BFE /* SimpleWayDrawaCircleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D323A2D1E8BB34700DF3BFE /* Build configuration list for PBXNativeTarget "SimpleWayDrawaCircleTests" */;
+			buildPhases = (
+				7D323A121E8BB34700DF3BFE /* Sources */,
+				7D323A131E8BB34700DF3BFE /* Frameworks */,
+				7D323A141E8BB34700DF3BFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D323A181E8BB34700DF3BFE /* PBXTargetDependency */,
+			);
+			name = SimpleWayDrawaCircleTests;
+			productName = SimpleWayDrawaCircleTests;
+			productReference = 7D323A161E8BB34700DF3BFE /* SimpleWayDrawaCircleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7D323A201E8BB34700DF3BFE /* SimpleWayDrawaCircleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D323A301E8BB34700DF3BFE /* Build configuration list for PBXNativeTarget "SimpleWayDrawaCircleUITests" */;
+			buildPhases = (
+				7D323A1D1E8BB34700DF3BFE /* Sources */,
+				7D323A1E1E8BB34700DF3BFE /* Frameworks */,
+				7D323A1F1E8BB34700DF3BFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D323A231E8BB34700DF3BFE /* PBXTargetDependency */,
+			);
+			name = SimpleWayDrawaCircleUITests;
+			productName = SimpleWayDrawaCircleUITests;
+			productReference = 7D323A211E8BB34700DF3BFE /* SimpleWayDrawaCircleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D3239F51E8BB34700DF3BFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = WUYUEZONG;
+				TargetAttributes = {
+					7D3239FC1E8BB34700DF3BFE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					7D323A151E8BB34700DF3BFE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7D3239FC1E8BB34700DF3BFE;
+					};
+					7D323A201E8BB34700DF3BFE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7D3239FC1E8BB34700DF3BFE;
+					};
+				};
+			};
+			buildConfigurationList = 7D3239F81E8BB34700DF3BFE /* Build configuration list for PBXProject "SimpleWayDrawaCircle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D3239F41E8BB34700DF3BFE;
+			productRefGroup = 7D3239FE1E8BB34700DF3BFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D3239FC1E8BB34700DF3BFE /* SimpleWayDrawaCircle */,
+				7D323A151E8BB34700DF3BFE /* SimpleWayDrawaCircleTests */,
+				7D323A201E8BB34700DF3BFE /* SimpleWayDrawaCircleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D3239FB1E8BB34700DF3BFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D323A101E8BB34700DF3BFE /* LaunchScreen.storyboard in Resources */,
+				7D323A0D1E8BB34700DF3BFE /* Assets.xcassets in Resources */,
+				7D323A0B1E8BB34700DF3BFE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D323A141E8BB34700DF3BFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D323A1F1E8BB34700DF3BFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D3239F91E8BB34700DF3BFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D323A351E8BB38500DF3BFE /* CircleView.m in Sources */,
+				7D323A081E8BB34700DF3BFE /* ViewController.m in Sources */,
+				7D323A051E8BB34700DF3BFE /* AppDelegate.m in Sources */,
+				7D323A021E8BB34700DF3BFE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D323A121E8BB34700DF3BFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D323A1B1E8BB34700DF3BFE /* SimpleWayDrawaCircleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D323A1D1E8BB34700DF3BFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D323A261E8BB34700DF3BFE /* SimpleWayDrawaCircleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D323A181E8BB34700DF3BFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D3239FC1E8BB34700DF3BFE /* SimpleWayDrawaCircle */;
+			targetProxy = 7D323A171E8BB34700DF3BFE /* PBXContainerItemProxy */;
+		};
+		7D323A231E8BB34700DF3BFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D3239FC1E8BB34700DF3BFE /* SimpleWayDrawaCircle */;
+			targetProxy = 7D323A221E8BB34700DF3BFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7D323A091E8BB34700DF3BFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D323A0A1E8BB34700DF3BFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7D323A0E1E8BB34700DF3BFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D323A0F1E8BB34700DF3BFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D323A281E8BB34700DF3BFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		7D323A291E8BB34700DF3BFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D323A2B1E8BB34700DF3BFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleWayDrawaCircle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = COM.WUYUEZONG.SimpleWayDrawaCircle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7D323A2C1E8BB34700DF3BFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleWayDrawaCircle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = COM.WUYUEZONG.SimpleWayDrawaCircle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		7D323A2E1E8BB34700DF3BFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimpleWayDrawaCircleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = COM.WUYUEZONG.SimpleWayDrawaCircleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleWayDrawaCircle.app/SimpleWayDrawaCircle";
+			};
+			name = Debug;
+		};
+		7D323A2F1E8BB34700DF3BFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimpleWayDrawaCircleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = COM.WUYUEZONG.SimpleWayDrawaCircleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleWayDrawaCircle.app/SimpleWayDrawaCircle";
+			};
+			name = Release;
+		};
+		7D323A311E8BB34700DF3BFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SimpleWayDrawaCircleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = COM.WUYUEZONG.SimpleWayDrawaCircleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SimpleWayDrawaCircle;
+			};
+			name = Debug;
+		};
+		7D323A321E8BB34700DF3BFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SimpleWayDrawaCircleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = COM.WUYUEZONG.SimpleWayDrawaCircleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SimpleWayDrawaCircle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D3239F81E8BB34700DF3BFE /* Build configuration list for PBXProject "SimpleWayDrawaCircle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D323A281E8BB34700DF3BFE /* Debug */,
+				7D323A291E8BB34700DF3BFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D323A2A1E8BB34700DF3BFE /* Build configuration list for PBXNativeTarget "SimpleWayDrawaCircle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D323A2B1E8BB34700DF3BFE /* Debug */,
+				7D323A2C1E8BB34700DF3BFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7D323A2D1E8BB34700DF3BFE /* Build configuration list for PBXNativeTarget "SimpleWayDrawaCircleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D323A2E1E8BB34700DF3BFE /* Debug */,
+				7D323A2F1E8BB34700DF3BFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7D323A301E8BB34700DF3BFE /* Build configuration list for PBXNativeTarget "SimpleWayDrawaCircleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D323A311E8BB34700DF3BFE /* Debug */,
+				7D323A321E8BB34700DF3BFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D3239F51E8BB34700DF3BFE /* Project object */;
+}
